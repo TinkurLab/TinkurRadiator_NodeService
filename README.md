@@ -1,8 +1,23 @@
-# P1 Info Radiator
+# TinkurRadiator - Node Service Component
 
 ## Overview
 
-The P1 Info Radiator project is an infomation radiator to helps to make sure people know when there's an outages reported to Hubot using lights and sounds to get your attention.
+TinkurRadiator provides real world information (blinky lights, sounds, etc) when things happen (ex. an outage) in a chat to get your attention and interupt you.
+
+## Components
+
+* Hubot Scripts
+  * Listens for chat room messages and interacts with the user conversationally using hubot-conversation package
+* Node Service
+  * Recieves updates from Hubot, logging logs when events are reported 
+  * Provides status to Checker Checker componet for event that were reported 
+* Raspberry Pi Checker and Radiator
+  * Polls Node Service compoent to check is there was a recent event reported
+  * Toggles information radiators on and off (ex. blinky lights, sounds, etc)
+
+### Node Service Component
+
+TODO
 
 ## Backlog and Board
 
