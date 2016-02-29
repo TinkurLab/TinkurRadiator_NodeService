@@ -1,5 +1,9 @@
 # TinkurRadiator - Node Service Component
 
+Brought to you by www.TinkurLab.com
+
+See [License](license.md)
+
 ## Overview
 
 TinkurRadiator provides real world information (blinky lights, sounds, etc) when things happen (ex. an outage) in a chat to get your attention and interupt you.
